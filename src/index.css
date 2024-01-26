@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0b0d17;
+}
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif; */
+
+.barlow {
+  font-family: "Barlow", sans-serif;
+}
+.barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.bellefair {
+  font-family: "Bellefair", serif;
+}
+.menu-font-size {
+  font-size: 1rem;
+}
+.subtitle-font-size {
+  font-size: 1rem;
+}
+.para-font-size {
+  font-size: 0.938rem;
+}
+
+/* Small
+Menu-16
+Home- sub:16,main:80,para:15,exp:20
+Destination- sub:16,tab:14,main:56,para:15, below:14,28
+Crew- sub:dest, post:16,name:24,para:same,
+Tec-sub:same,num:16,namesu:14, name:24, para:same
+
+Tablet
+Menu-14
+Home- sub:20,main:150,para:16,exp:32
+Destination- sub:20,tab:16,main:80,para:16, below:14,28
+Crew- sub:dest, post:24,name:40,para:same,
+Tec-sub:same,num:24,namesu:16, name:40, para:same
+
+Laptop 
+Menu-16
+Home- sub:28,main:150,para:18,exp:32
+Destination- sub:28,tab:16,main:100,para:18,below:14,28
+Crew- sub:dest, post:32,name:56,para:same,
+Tec-sub:same,num:32,namesu:16, name:56, para:same */
